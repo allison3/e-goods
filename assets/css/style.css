@@ -1,7 +1,8 @@
 body{
-  /* By default, the body has margins. We want to reset these so our elements can span the entire width of the page. */
   margin:0;
+  font-family: 'Raleway', sans-serif;
 }
+
 #header{
   background:rgb(250,250,250);
   border-bottom:1px solid rgba(50,50,50,0.5);
@@ -41,6 +42,54 @@ body{
 }
 #products{
   margin:auto 100px;
-  padding:25px;
-  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  padding:20px;
+  background-color:#F5F7FA;
+}
+
+.product {
+  margin: 5px;
+  padding:20px;
+  background-color:#E6E8EB;
+}
+
+.purpleText {
+  color: #734B5E;
+
+}
+
+.grayText {
+  color: #8A8D91;
+}
+
+.lightGrayBackground {
+  background-color: #E6E8EB;
+}
+
+.productImage {
+  width:25%;
+  min-height: 100px;
+
+}
+
+.rightDescription {
+  float:right;
+  width:70%;
+  display: inline;
+
+}
+
+.productDetails {
+  padding-top:20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+
+.learnMore {
+  background-color:#8A8D91;
+  width: 50px;
+  margin: 10px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
 }
